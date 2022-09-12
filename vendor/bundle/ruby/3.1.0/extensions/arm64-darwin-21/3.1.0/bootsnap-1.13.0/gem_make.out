@@ -1,0 +1,15 @@
+current directory: /Users/ooshimaayaka/Desktop/udemy/vendor/bundle/ruby/3.1.0/gems/bootsnap-1.13.0/ext/bootsnap
+/Users/ooshimaayaka/.rbenv/versions/3.1.2/bin/ruby -I /Users/ooshimaayaka/.rbenv/versions/3.1.2/lib/ruby/3.1.0 -r ./siteconf20220912-4146-259mdd.rb extconf.rb
+creating Makefile
+
+current directory: /Users/ooshimaayaka/Desktop/udemy/vendor/bundle/ruby/3.1.0/gems/bootsnap-1.13.0/ext/bootsnap
+make DESTDIR\= clean
+
+current directory: /Users/ooshimaayaka/Desktop/udemy/vendor/bundle/ruby/3.1.0/gems/bootsnap-1.13.0/ext/bootsnap
+make DESTDIR\=
+compiling bootsnap.c
+linking shared-object bootsnap/bootsnap.bundle
+
+current directory: /Users/ooshimaayaka/Desktop/udemy/vendor/bundle/ruby/3.1.0/gems/bootsnap-1.13.0/ext/bootsnap
+make DESTDIR\= install
+/usr/bin/install -c -m 0755 bootsnap.bundle ./.gem.20220912-4146-ux33zh/bootsnap

@@ -1,0 +1,16 @@
+current directory: /Users/ooshimaayaka/Desktop/udemy/vendor/bundle/ruby/3.1.0/gems/debug-1.6.2/ext/debug
+/Users/ooshimaayaka/.rbenv/versions/3.1.2/bin/ruby -I /Users/ooshimaayaka/.rbenv/versions/3.1.2/lib/ruby/3.1.0 -r ./siteconf20220912-4146-zjbbm9.rb extconf.rb
+creating Makefile
+
+current directory: /Users/ooshimaayaka/Desktop/udemy/vendor/bundle/ruby/3.1.0/gems/debug-1.6.2/ext/debug
+make DESTDIR\= clean
+
+current directory: /Users/ooshimaayaka/Desktop/udemy/vendor/bundle/ruby/3.1.0/gems/debug-1.6.2/ext/debug
+make DESTDIR\=
+compiling debug.c
+compiling iseq_collector.c
+linking shared-object debug/debug.bundle
+
+current directory: /Users/ooshimaayaka/Desktop/udemy/vendor/bundle/ruby/3.1.0/gems/debug-1.6.2/ext/debug
+make DESTDIR\= install
+/usr/bin/install -c -m 0755 debug.bundle ./.gem.20220912-4146-tqjsmi/debug

@@ -1,0 +1,19 @@
+current directory: /Users/ooshimaayaka/Desktop/udemy/vendor/bundle/ruby/3.1.0/gems/mini_racer-0.6.3/ext/mini_racer_extension
+/Users/ooshimaayaka/.rbenv/versions/3.1.2/bin/ruby -I /Users/ooshimaayaka/.rbenv/versions/3.1.2/lib/ruby/3.1.0 -r ./siteconf20220912-6836-ov814n.rb extconf.rb
+checking for -lpthread... yes
+checking for -lobjc... yes
+checking for whether -Wl,--exclude-libs=ALL  is accepted as LDFLAGS... no
+creating Makefile
+
+current directory: /Users/ooshimaayaka/Desktop/udemy/vendor/bundle/ruby/3.1.0/gems/mini_racer-0.6.3/ext/mini_racer_extension
+make DESTDIR\= clean
+
+current directory: /Users/ooshimaayaka/Desktop/udemy/vendor/bundle/ruby/3.1.0/gems/mini_racer-0.6.3/ext/mini_racer_extension
+make DESTDIR\=
+compiling mini_racer_extension.cc
+clang: warning: argument unused during compilation: '-rdynamic' [-Wunused-command-line-argument]
+linking shared-object mini_racer_extension.bundle
+
+current directory: /Users/ooshimaayaka/Desktop/udemy/vendor/bundle/ruby/3.1.0/gems/mini_racer-0.6.3/ext/mini_racer_extension
+make DESTDIR\= install
+/usr/bin/install -c -m 0755 mini_racer_extension.bundle ./.gem.20220912-6836-svrvce
