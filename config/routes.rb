@@ -1,4 +1,6 @@
 Rails.application.routes.draw do
+  get 'comments/create'
+  get 'comments/destroy'
   # get 'boards', to: 'boards#index'
   # get 'boards/new', to: 'boards#new'
   # post 'boards', to: 'boards#create'
@@ -10,4 +12,7 @@ Rails.application.routes.draw do
   # Define your application routes per the DSL in https://guides.rubyonrails.org/routing.html
   # Defines the root path route ("/")
   # root "articles#index"
+
+  # 
+  resources :comments, only: %i[create destroy]
 end
